@@ -1,0 +1,38 @@
+.navbar {
+     background-color: rgb(80, 80, 80);
+}
+
+.navbar-brand {
+     color: white;
+}
+
+#hero {
+     background-color: teal;
+     min-height: 200px;
+     min-width: 100%;
+}
+
+#work-container {
+     /* min-width: 100%; */
+}
+
+#zing {
+     background-image: url(./assets/zing.PNG);
+     background-repeat: no-repeat;
+     background-position-x: center;
+     background-size: cover;
+     margin: 1%;
+     border: 2px solid rgb(80, 80, 80);
+     height: 400px;     
+}
+
+#note-taker {
+     background-image: url(./assets/note-taker.PNG);
+     background-repeat: no-repeat;
+     background-position-y: center;
+     background-position-x: center;
+     background-size: contain;
+     margin: 1%;
+     border: 2px solid rgb(80, 80, 80);
+     height: 400px;     
+}
