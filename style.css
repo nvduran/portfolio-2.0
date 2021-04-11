@@ -36,3 +36,7 @@
      border: 2px solid rgb(80, 80, 80);
      height: 400px;     
 }
+
+#carouselExampleControls {
+     margin: 2% 2% 2% 2%;
+}
