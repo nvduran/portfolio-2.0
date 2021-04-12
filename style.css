@@ -1,14 +1,23 @@
 .navbar {
      background-color: rgb(80, 80, 80);
+     justify-content: left;
+}
+
+.name {
+     color: white;
+     vertical-align: center;
+     font-size: 5em;
+     margin-top: 1%;
 }
 
 .navbar-brand {
      color: white;
+     margin-right: 5%;
 }
 
 #hero {
      background-color: teal;
-     min-height: 200px;
+     min-height: 150px;
      min-width: 100%;
 }
 
@@ -17,7 +26,7 @@
 }
 
 #zing {
-     background-image: url(./assets/zing.PNG);
+     background-image: url(./assets/zing/zing.PNG);
      background-repeat: no-repeat;
      background-position-x: center;
      background-size: cover;
@@ -27,16 +36,16 @@
 }
 
 #note-taker {
-     background-image: url(./assets/note-taker.PNG);
+     background-image: url(./assets/zing/zing.PNG);
      background-repeat: no-repeat;
      background-position-y: center;
      background-position-x: center;
-     background-size: contain;
+     background-size: cover;
      margin: 1%;
      border: 2px solid rgb(80, 80, 80);
-     height: 400px;     
+     height: 200px;     
 }
 
 #carouselExampleControls {
-     margin: 2% 2% 2% 2%;
+     margin: 10% 10% 10% 10%;
 }
